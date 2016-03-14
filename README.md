@@ -8,10 +8,12 @@ The source was built in Visual Studio 2012 with .NET Framework 4.5
 
 ## Usage
 
-1) Build the dll from source
-2) Import the dll into your .NET project and add 'PProfileAPIClient' as a reference 
-3) Create the API object as follows:
-    ApiClient(string clientId, string clientSecret, bool uat = false) 
-4) Perform operations against the API object as desired
+1. Build the dll from source
+2. Import the dll into your .NET project and add 'PProfileAPIClient' as a reference 
+3. Create the API object as follows:
+
+    ApiClient(string clientId, string clientSecret, bool uat = false)
+
+4. Perform operations against the API object as desired
 
 Note: API keys are provided by the API vendor
