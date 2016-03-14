@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{913C8989-D672-4B6B-BCF8-D1ACCEFCB45D}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		PProfileAPIClient.vsmdi = PProfileAPIClient.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PProfileAPIClientTests", "PProfileAPIClientTests\PProfileAPIClientTests.csproj", "{9155F9EF-75CF-4FF8-9B44-7F6B224960D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PProfileAPIClient", "PProfileAPIClient\PProfileAPIClient.csproj", "{C8E0E320-0952-432F-B452-382EE26B17F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{57BA71F1-82F9-4075-863C-7A0D38DFE86B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PProfileAPIClient.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9155F9EF-75CF-4FF8-9B44-7F6B224960D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9155F9EF-75CF-4FF8-9B44-7F6B224960D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9155F9EF-75CF-4FF8-9B44-7F6B224960D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9155F9EF-75CF-4FF8-9B44-7F6B224960D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E0E320-0952-432F-B452-382EE26B17F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E0E320-0952-432F-B452-382EE26B17F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E0E320-0952-432F-B452-382EE26B17F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E0E320-0952-432F-B452-382EE26B17F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
